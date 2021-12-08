@@ -1,15 +1,19 @@
 import React from "react";
-import { Input } from "./style";
+import { 
+    InputEmail, 
+    InputSenha, 
+    Title, 
+    ButtonLogin 
+} from "./style";
 
 const Login: React.FC = () => {
 
     return (
         <>
-            <form className="form">
-                <Input/>
-                <Input/>
-                <button className="login">Entrar</button>
-            </form>
+            <Title>Comece a coletar pokémons!</Title>
+            <InputEmail />
+            <InputSenha />
+            <ButtonLogin>Entrar</ButtonLogin>
         </>
     )
 }
