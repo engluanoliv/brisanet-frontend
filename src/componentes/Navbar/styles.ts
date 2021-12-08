@@ -15,19 +15,6 @@ export const Container = styled.div`
     }
 `
 
-// export const NavLink = styled.a`
-//     width: 57px;
-//     height: 18px;
-//     font-family: Poppins;
-//     font-style: normal;
-//     font-weight: 600;
-//     font-size: 12px;
-//     padding-right: 25px;
-//     padding-left: 30px;
-//     white-space: nowrap;
-//     cursor: pointer;
-// `
-
 export const NavBtn = styled.button`
     width: 89px;
     height: 28px;
@@ -46,8 +33,6 @@ export const NavMenu = styled.div`
     align-items: center;
     justify-content: space-between;
 `
-
-
 
 export const NavLink = styled.a`
     display: flex;

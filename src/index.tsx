@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 // import Login from './Pages/Login';
 // import Todos from './Pages/Todos';
 import App from './App';
+// import Card from './componentes/Card';
 //import GlobalStyle from './styles/GlobalStyles'
 
 ReactDOM.render(

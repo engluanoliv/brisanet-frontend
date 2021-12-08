@@ -1,5 +1,7 @@
 import React from "react";
+import logoImageLogin from "../../images/pokemonLogin.svg";
 import { 
+    LoginLogo,
     InputEmail, 
     InputSenha, 
     Title, 
@@ -10,9 +12,10 @@ const Login: React.FC = () => {
 
     return (
         <>
+            <LoginLogo src={logoImageLogin} />
             <Title>Comece a coletar pokémons!</Title>
-            <InputEmail />
-            <InputSenha />
+            <InputEmail placeholder="Email" type="email"/>
+            <InputSenha placeholder="Senha" type="password" />
             <ButtonLogin>Entrar</ButtonLogin>
         </>
     )

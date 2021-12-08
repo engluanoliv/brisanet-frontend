@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
                     <NavLink href="/favoritos">
                         Favoritos
                     </NavLink>
-                    <NavLink href="/procurar">
+                    <NavLink href="/search">
                         Procurar
                     </NavLink>
                     <NavLink href="/vertodos">

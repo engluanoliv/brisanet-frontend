@@ -1,22 +1,23 @@
 export {};
 
-// import React, { useState, useContext } from 'react';
+// import React, { useState, useContext, createContext } from 'react';
+// import { IData } from "../interfaces";
 
-// export const Context = React.createContext({});
+// export const DataContext = React.createContext({} as IData);
 
-// export const Provider = () => {
-
-//     const [saveData, setSaveData] = useState([]);
-
+// const DataProvider: React.FC = ({ children }) => {
+    
+//     const [data, setData] = useState<IData>(); 
 //     const values = {
-//         saveData,
-//         setSaveData
+//         data,
+//         setData
 //     };
 
 //     return (
-//         <Context.Provider value={ value=values } (displayName:string) ='General Data From Github' >
-//             { children }
-//         </Context.Provider>
+
+        
 //     );
+
 // }
 
+// export default DataProvider;

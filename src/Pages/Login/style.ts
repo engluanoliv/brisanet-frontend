@@ -1,6 +1,15 @@
 import styled from 'styled-components';
+import { InputProps } from '../../interfaces'
 
-export const InputEmail: React.FC = styled.input`
+export const LoginLogo = styled.img`
+    position: absolute;
+    width: 206px;
+    height: 76px;
+    left: 138px;
+    top: 33px;
+`
+
+export const InputEmail = styled.input<InputProps>`
     position: absolute;
     width: 365px;
     height: 54px;
@@ -11,7 +20,7 @@ export const InputEmail: React.FC = styled.input`
     border-radius: 8px;
 `
 
-export const InputSenha: React.FC = styled.input`
+export const InputSenha = styled.input<InputProps>`
     position: absolute;
     width: 365px;
     height: 54px;
@@ -23,7 +32,7 @@ export const InputSenha: React.FC = styled.input`
     
 `
 
-export const Title: React.FC = styled.h1`
+export const Title = styled.h1`
     position: absolute;
     width: 365px;
     height: 108px;
@@ -35,7 +44,7 @@ export const Title: React.FC = styled.h1`
     line-height: 54px;
 `
 
-export const ButtonLogin: React.FC = styled.button`
+export const ButtonLogin = styled.button`
     position: absolute;
     width: 365px;
     height: 54px;
