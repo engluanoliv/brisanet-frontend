@@ -15,22 +15,23 @@ export const Container = styled.div`
     }
 `
 
-export const NavLink = styled.a`
-    width: 57px;
-    height: 18px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    padding-right: 25px;
-    padding-left: 30px;
-    white-space: nowrap;
-    cursor: pointer;
-`
+// export const NavLink = styled.a`
+//     width: 57px;
+//     height: 18px;
+//     font-family: Poppins;
+//     font-style: normal;
+//     font-weight: 600;
+//     font-size: 12px;
+//     padding-right: 25px;
+//     padding-left: 30px;
+//     white-space: nowrap;
+//     cursor: pointer;
+// `
 
 export const NavBtn = styled.button`
     width: 89px;
     height: 28px;
+    font-family: Poppins;
     border: 1px solid #343232;
     box-sizing: border-box;
     border-radius: 8px;
@@ -48,7 +49,7 @@ export const NavMenu = styled.div`
 
 
 
-export const NavLogo = styled.button`
+export const NavLink = styled.a`
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -60,6 +61,7 @@ export const NavLogo = styled.button`
     white-space: nowrap;
     height: 100%;
     margin: 0 1rem;
+
     &.active {
         font-weight: bold;
         position: relative;

@@ -29,7 +29,6 @@ export const Title: React.FC = styled.h1`
     height: 108px;
     left: 138px;
     top: 188px;
-    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;

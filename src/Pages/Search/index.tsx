@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "../../componentes/Navbar";
 
 const Search: React.FC = () => {
 
     return (
-        <h1>Search Page</h1>
+        <Navbar />
     );
 }
 

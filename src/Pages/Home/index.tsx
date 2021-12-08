@@ -1,9 +1,9 @@
 import React from "react";
-
+import Navbar from "../../componentes/Navbar";
 const Home: React.FC = () => {
 
     return (
-        <h1>Home Page</h1>
+        <Navbar />
     );
 }
 

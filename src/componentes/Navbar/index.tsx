@@ -1,9 +1,8 @@
 import React from 'react';
-// import pokemonLogo from '';
+import Logo from "../../images/pokemonLogo.svg";
 import { 
     Container, 
     NavLink,
-    NavLogo,
     NavMenu, 
     NavBtn 
 } from './styles';
@@ -12,17 +11,17 @@ const Navbar: React.FC = () => {
 
     return (
             <Container>
-                <NavLogo>
-                    imgLogo
-                </NavLogo>
+                <NavLink href="/favoritos">
+                    <img src={Logo} alt="Pokemon Logo" />
+                </NavLink>
                 <NavMenu>
-                    <NavLink>
+                    <NavLink href="/favoritos">
                         Favoritos
                     </NavLink>
-                    <NavLink>
+                    <NavLink href="/procurar">
                         Procurar
                     </NavLink>
-                    <NavLink>
+                    <NavLink href="/vertodos">
                         Ver Todos
                     </NavLink>
                 </NavMenu>
