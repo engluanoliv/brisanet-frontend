@@ -5,12 +5,13 @@ export interface IPokeResult {
     results: Array<{name: string, url: string}>
 }
 
-export interface InputProps {
-    placeholder: string;
-    type: string;
-}
-
 export interface IData {
     name: string,
     url: string
 }
+
+export interface IInputProps {
+    placeholder: string;
+    type: string;
+}
+

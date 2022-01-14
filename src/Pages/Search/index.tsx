@@ -8,6 +8,7 @@ const Search: React.FC = () => {
         <>
         <Navbar />
         <InputSearch placeholder="Procure por pokémons" type="text"/>
+        <h1>Search Page</h1>
         </>
     );
 }

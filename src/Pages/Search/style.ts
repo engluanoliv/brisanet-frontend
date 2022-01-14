@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { InputProps } from '../../interfaces';
+import { IInputProps } from '../../interfaces';
 
 
-export const InputSearch = styled.input<InputProps>`
+export const InputSearch = styled.input<IInputProps>`
     background: #FFFFFF;
     border: 1px solid #DEE0E3;
     box-sizing: border-box;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { InputProps } from '../../interfaces'
+import { IInputProps } from '../../interfaces'
 
 export const LoginLogo = styled.img`
     position: absolute;
@@ -9,7 +9,7 @@ export const LoginLogo = styled.img`
     top: 33px;
 `
 
-export const InputEmail = styled.input<InputProps>`
+export const InputEmail = styled.input<IInputProps>`
     position: absolute;
     width: 365px;
     height: 54px;
@@ -20,7 +20,7 @@ export const InputEmail = styled.input<InputProps>`
     border-radius: 8px;
 `
 
-export const InputSenha = styled.input<InputProps>`
+export const InputSenha = styled.input<IInputProps>`
     position: absolute;
     width: 365px;
     height: 54px;

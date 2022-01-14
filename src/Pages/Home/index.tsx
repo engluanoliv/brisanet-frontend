@@ -3,7 +3,10 @@ import Navbar from "../../componentes/Navbar";
 const Home: React.FC = () => {
 
     return (
-        <Navbar />
+        <>
+            <Navbar />
+            <h1>Favoritos Page</h1>
+        </>
     );
 }
 

@@ -1,29 +1,47 @@
 import React, { useState, useEffect } from "react";
 import { PokemonService } from "../../services";
 import Navbar from "../../componentes/Navbar";
-import { IData } from "../../interfaces";
+import PokeAPI from "pokeapi-typescript";
+import { IPokeResult } from "../../interfaces";
+import { 
+    Card,
+    Details, 
+    IdCard, 
+    ImgCard, 
+    NameCard 
+} from "./style";
 
 const Todos: React.FC = () => {
-    
-    const [data, setData] = useState<IData[]>();
 
-    useEffect(() => {
+    const [data, setData] = useState<IPokeResult>();
+
+    useEffect(() => {   
 
         const init = async () => {
-            
             const response = await PokemonService.getPokemons();
-            setData(response.data.results);
-
+            // console.log(response.data);
+            setData(response.data);
         }
+        
         init();
 
-    }, [])
-    
+    }, []);
+
     console.log(data);
 
 
     return (
-        <Navbar />
+        <>
+            <Navbar />
+            <h1>Todos Page</h1>
+            <Card>
+                <ImgCard />
+                <NameCard>Pikachu</NameCard>
+                <IdCard>ID: 101</IdCard>
+                <Details>Detalhes</Details>
+            </Card>
+        </>
+
     );
 }
 
