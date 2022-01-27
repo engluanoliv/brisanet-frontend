@@ -34,6 +34,17 @@ export const NavMenu = styled.div`
     justify-content: space-between;
 `
 
+export const NavBrand = styled.a`
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    margin-left: 25px;
+`
+
 export const NavLink = styled.a`
     display: flex;
     align-items: center;
@@ -47,7 +58,7 @@ export const NavLink = styled.a`
     height: 100%;
     margin: 0 1rem;
 
-    &.active {
+    &:hover {
         font-weight: bold;
         position: relative;
         &::after {

@@ -1,13 +1,15 @@
-import axios from "axios";
-import { IPokeResult } from '../interfaces';
+export {};
 
-const UrlApi: string = 'https://pokeapi.co/api/v2/pokemon?limit=20';
+// import axios from "axios";
+// import { IPokeResult } from '../interfaces';
 
-export const PokemonService = {
-    getPokemons: () => {
-        return axios.get<IPokeResult>(UrlApi)
-    }
-}
+// const UrlApi: string = 'https://pokeapi.co/api/v2/pokemon?limit=20';
+
+// export const PokemonService = {
+//     getPokemons: () => {
+//         return axios.get<IPokeResult>(UrlApi)
+//     }
+// }
 
 // const pokemonUrl: string = `https://pokeapi.co/v2/pokemon/${ pokemon.name }`
 
